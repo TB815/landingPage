@@ -1,0 +1,72 @@
+body, .top, .middle, .quote-section, .image-subtext, .call-to-action-text {
+    display: flex;
+    flex-direction: column;
+    border: dotted red;
+}
+
+.header, .welcome-header, .middle-header, .call-to-action-header, .links {
+    display: flex;
+    border: solid orange;
+}
+
+.top, .footer {
+    background-color: #1F2937;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    text-align: center;
+}
+
+.header {
+    gap: 450px;
+}
+
+.links {
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.middle-header-text {
+    text-align: center;
+}
+
+.main-header-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.main-header-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.footer {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+
+.signup-button {
+    color: white;
+    background-color: #3882F6;
+}
+
+.image-subtext p{
+    width: 180px;
+    text-align: center;
+}
+
+.middle-header {
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
+}
